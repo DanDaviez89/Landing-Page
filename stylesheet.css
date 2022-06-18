@@ -1,0 +1,25 @@
+header {
+    background-color: #1F2937;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+  }
+
+  #header-con {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item {
+    margin: 20px;
+    width: 30%;
+  }
+

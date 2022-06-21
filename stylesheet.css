@@ -8,18 +8,38 @@ a {
 }
 
 .container {
-    padding: 20px;
-    margin: 20px auto;
     display: flex;
   }
 
   #header-con {
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    margin: 20px auto;
   }
   
   .item {
     margin: 20px;
     width: 30%;
+  }
+
+  #main-content {
+    justify-content: center;
+    height: 200px;
+  }
+
+  #second-content {
+    display: block;
+    width: 40%;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #top-image {
+    width: 40%;
+    height: 80%;  
+    margin: 10px 10px auto;
+    background-color: grey;
+    opacity: 0.6;
   }
 

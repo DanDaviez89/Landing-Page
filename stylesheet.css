@@ -3,43 +3,129 @@ header {
     color: white;
 }
 
-a {
-    color: white;
+header a, h3, h1 {
+  color: white !important;
 }
 
 .container {
     display: flex;
   }
 
-  #header-con {
+#header-con {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     margin: 20px auto;
   }
   
-  .item {
+.item {
     margin: 20px;
     width: 30%;
   }
 
-  #main-content {
+#main-content {
     justify-content: center;
     height: 200px;
   }
 
-  #second-content {
+#second-content {
     display: block;
     width: 40%;
-    flex-wrap: wrap;
-    align-items: center;
   }
 
-  #top-image {
+#top-image {
     width: 40%;
     height: 80%;  
     margin: 10px 10px auto;
     background-color: grey;
-    opacity: 0.6;
+    opacity: 0.4;
   }
+
+#button1 {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+#button2 {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 10px;
+    border: 5px solid white;
+    border-radius: 15px;
+  }
+
+
+body h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+#main-body-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-box {
+  width:150px;
+  height: 350px;
+  margin: 5px 20px;
+  text-align: center;
+}
+
+.main-image {
+  height:150px;
+  width:150px;
+  background-color:white;
+  border: 5px solid #3882F6;
+  border-radius: 15px;
+}
+
+body a {
+  color: black;
+}
+
+#quote-pos {
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
+  background-color: #E5E7EB;
+  padding: 100px 20%;
+  max-width: 100%;
+  max-height: 300px;
+}
+
+#quote-text {
+  font-size: 36px;
+  font-family: "light italic";
+  color: #1F2937;
+  font-style: italic;
+}
+
+#quote-under-title {
+  align-self: flex-end;
+  font-size: 30px;
+  font-family: "heavy italic";
+  color: #1F2937;
+}
+
+#footer-cont {
+  align-items: center;
+  justify-content: center;
+  height: 200px; 
+  width: 800px;
+  margin: 100px auto;
+  background-color: #3882F6;
+  border-radius: 15px;
+  color: white;
+}
+
+#footer-cont a {
+  color: white !important;
+}
 
